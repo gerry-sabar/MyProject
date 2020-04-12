@@ -22,4 +22,9 @@ Route::get('/testing', function () {
 });
 
 Route::get('/pricing', 'PricingController@index');
+Route::get('/support', 'PricingController@support');
+Route::get('/enterprise', 'PricingController@enterprise');
+Route::get('/features', 'PricingController@features');
+
+
 Route::get('/manual', 'ManualController@index');
